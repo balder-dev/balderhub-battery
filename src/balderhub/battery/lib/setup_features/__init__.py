@@ -1,6 +1,5 @@
-# TODO add classes / functions from module (if any)
-# TODO delete module if it has no sub elements
+from .battery_sim_with_programmable_dc_power_supply import BatterySimWithProgrammableDcPowerSupply
 
 __all__ = [
-
+    'BatterySimWithProgrammableDcPowerSupply',
 ]
