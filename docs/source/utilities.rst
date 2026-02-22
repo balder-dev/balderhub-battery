@@ -4,10 +4,11 @@ Utilities
 This section shows general objects and helper functions that are used with this package.
 
 
-.. note::
-    This BalderHub project doesn't have any utilities.
+Battery Discharge Characteristics
+=================================
 
+.. autoclass:: balderhub.battery.lib.utils.battery_discharge_characteristic.BaseBatteryDischargeCharacteristic
+    :members:
 
-.. todo add your scenarios with .. autoclass
-    .. autoclass:: balderhub.battery.lib.utilities.MyExampleUtility
-        :members:
+.. autoclass:: balderhub.battery.lib.utils.battery_discharge_characteristic.BaseDiscreteBatteryDischargeCharacteristic
+    :members:

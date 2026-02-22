@@ -8,20 +8,23 @@ This section describes all features that are shipped with this package.
 Scenario Features
 =================
 
-.. note::
-    This package does not provide any scenario features
+.. autoclass:: balderhub.battery.lib.scenario_features.BatteryLevelReader
+    :members:
 
-.. todo add your features with .. autoclass
-    .. autoclass:: balderhub.battery.lib.scenario_features.MyScenarioFeature
-        :members:
+.. autoclass:: balderhub.battery.lib.scenario_features.BatterySimFeature
+    :members:
 
+.. autoclass:: balderhub.battery.lib.scenario_features.BatteryTestCriteriaConfig
+    :members:
+
+.. autoclass:: balderhub.battery.lib.scenario_features.IsPoweredOn
+    :members:
+
+.. autoclass:: balderhub.battery.lib.scenario_features.RemovableBatterySimFeature
+    :members:
 
 Setup Features
 ==============
 
-.. note::
-    This package does not provide any setup features.
-
-.. todo add your features with .. autoclass
-    .. autoclass:: balderhub.battery.lib.setup_features.MySetupFeature
-        :members:
+.. autoclass:: balderhub.battery.lib.setup_features.BatterySimWithProgrammableDcPowerSupply
+    :members:
