@@ -17,6 +17,9 @@ Scenario Features
 .. autoclass:: balderhub.battery.lib.scenario_features.BatteryTestCriteriaConfig
     :members:
 
+.. autoclass:: balderhub.battery.lib.scenario_features.DeviceActivityFeature
+    :members:
+
 .. autoclass:: balderhub.battery.lib.scenario_features.IsPoweredOn
     :members:
 
